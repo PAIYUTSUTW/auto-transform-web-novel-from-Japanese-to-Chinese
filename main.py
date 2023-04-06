@@ -156,7 +156,7 @@ while link != end_href:
         cont=[]
         for j in content[i:i+40]:
             cont.append(j.getText().replace('\u3000', ''))
-        cc=ChatGPT('APK ').translate(str(cont))
+        cc=ChatGPT('APK_KEY').translate(str(cont))
         new_content.append(cc)
 
         
